@@ -1,8 +1,7 @@
-# 🛍️ E-commerce Website
+# 🔗 URL Shortener Website
 
-A full-featured **E-commerce platform** built with the MERN stack.  
-Includes user authentication, product browsing, shopping cart, and order placement.  
-Designed with **shadcn/ui** and **ReactBits** for a modern, responsive UI.
+A modern and responsive **URL Shortening platform** built with the **MERN Stack**, **Supabase**, **Tailwind CSS**, **shadcn/ui**, and **ReactBits**.  
+It allows users to **shorten long URLs**, **create custom links**, and **track real-time click analytics** through a clean and intuitive dashboard.
 
 ---
 
@@ -10,32 +9,35 @@ Designed with **shadcn/ui** and **ReactBits** for a modern, responsive UI.
 
 - **Frontend:** React.js, Tailwind CSS, shadcn/ui, ReactBits  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Other:** Bootstrap, JWT Authentication
+- **Database & Auth:** Supabase  
+- **Other:** Vite, JWT Authentication
 
 ---
 
 ## ✨ Features
 
-- 🔐 **User Authentication** (Login/Signup)  
-- 🛒 **Shopping Cart** with dynamic updates  
-- 📦 **Order Placement** and product browsing with 8+ categories  
-- 📱 **Responsive UI** with clean design components  
-- ⚡ **Optimized API** calls and state management
+- 🔐 **User Authentication** using Supabase  
+- ✍️ **Custom short links** with unique slugs  
+- 📊 **Real-time analytics** for each shortened URL (click count tracking)  
+- 🧭 **Dashboard** to manage, edit, and delete links  
+- 🌐 Fully **responsive UI** built with shadcn/ui & ReactBits components  
+- ⚡ Fast and secure backend API built with Express.js
 
 ---
 
 ## 🧭 Getting Started
 
+Follow these steps to run the project locally:
+
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/BhadauriaDivya/UrlShorteren.git
 
-# Go into the project folder
-cd ecommerce-project
+# Navigate into the project
+cd url-shortener
 
 # Install dependencies
 npm install
 
-# Run the development server
-npm start
+# Start the development server
+npm run dev
