@@ -31,7 +31,13 @@ const Header = () => {
       </Link>
       <div>
         {!user ? (
-          <Button onClick={() => navigate("/auth")}>Login</Button>
+          <Button
+          onClick={() => navigate("/auth")}
+          className="bg-blue-500 text-black hover:bg-blue-600"
+        >
+          Login
+        </Button>
+        
         ) : (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
